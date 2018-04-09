@@ -1,0 +1,150 @@
+:root {
+	font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans,Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 0.92em;
+	line-height: 1.4;
+}
+
+html * {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Lobster", cursive;
+	line-height: 0.75;
+}
+
+h1 {
+	font-size: 3.4em;
+	text-align: center;
+	text-decoration: underline;
+	font-weight: 800;
+}
+
+h2 {
+	font-size: 2.6em;
+	text-align: center;
+	text-decoration: underline;
+	font-weight: 400;
+}
+
+h3 {
+	font-size: 2.1em;
+}
+
+h4 {
+	font-size: 1.75em;
+}
+
+h5 {
+	font-size: 1.5em;
+}
+
+h6 {
+	font-size: 1.25em;
+}
+
+#index-body-header {
+	font-size: 4em;
+	/* font-weight: 800; 		h1 already has this */
+	line-height: 0.9;
+	margin: 0;
+	/* text-decoration: underline; 		h1 already has this */
+	text-align: left;
+}
+
+#index-body-desc {
+	font-family: "Lobster", cursive;
+	font-size: 2.6em;
+	font-weight: 400;
+	margin: 0;
+	text-align: right;
+	text-decoration: underline;
+}
+
+body {
+	background-color: #5393B6;
+	margin: 0;
+}
+
+.body-text {
+	background-color: #fff;
+	border-style: solid;
+	border-width: 10px;
+	border-color: #225568;
+	padding: 1em;
+	padding-top: 35px;
+}
+
+.index-body {
+	height: 75vh;
+	margin: auto;	/* Googled this */
+	background-image: url("images/Sperm_Whale.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+}
+
+.chapter-image {
+	max-width: 100%;
+	margin: 1em;
+	border: 5px solid #000;
+}
+
+@media only screen and (min-width: 600px) {
+	.body-text {
+		max-width: 75vw;
+		margin: auto;
+	}
+
+	.chapter-image {
+		max-width: 50%;
+		float: right;
+	}
+}
+
+@media only screen and (min-width: 900px) {
+	.body-text {
+		max-width: 50vw;
+	}
+
+	.chapter-image {
+		max-width: 60%;
+		float: right;
+	}
+}
+
+.navigation-menu {
+	padding: 1em;
+	width: 100%;
+
+	-webkit-box-shadow: 0px 10px 0px 0px rgba(34,85,104,1);
+	-moz-box-shadow: 0px 10px 0px 0px rgba(34,85,104,1);
+	box-shadow: 0px 10px 0px 0px rgba(34,85,104,1);
+
+	background-color: #013044;
+
+	position: fixed;
+}
+
+.navigation-menu ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.navigation-menu ul li a {
+	color: #013044;
+
+	text-decoration: none;
+	text-align: center;
+
+	font-weight: 600;
+	font-style: italic;
+
+	background-color: #5393B6;
+	border: 5px solid #5393B6;
+	border-radius: 3px;
+}
