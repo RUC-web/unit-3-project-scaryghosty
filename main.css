@@ -21,6 +21,9 @@ header {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+	height: 75px;
 }
 
 .navigation-menu {
@@ -60,7 +63,7 @@ main {
 	display: flex;
 	justify-content: space-between;
 	border: 5px solid black;
-	border-radius: 5px;
+	border-radius: 20px;
 }
 
 #left-articles, #right-articles {
@@ -97,15 +100,40 @@ main {
 
 /* RECOMMENDATIONS -------------------------------------------------------- */
 
-.recommend-image {
-	height: 150px;
-	width: 150px;
+aside {
+	border: 5px solid black;
+	border-radius: 20px;
+	padding: 1.5em;
 }
+
+aside ul {
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+}
+
+aside ul li {
+	width: 250px;
+}
+
+aside ul li a {
+	text-decoration: none;
+	color: #000000;
+	padding: 1em;
+}
+
+.recommend-image {
+	height: 200px;
+	width: 200px;
+	padding: 1em;
+}
+
+/* BREAKPOINTS -------------------------------------------------------- */
 
 @media only screen and (min-width: 600px) {
 }
 
 
-/* First breakpoint because shortly after a width of 900px, the header breaks */
-@media only screen and (min-width: 900px) {
+			/* First breakpoint because shortly after a width of 900px, the header breaks */
+@media only screen and (min-width: 950px) {
 }
