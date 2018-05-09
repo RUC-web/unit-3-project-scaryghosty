@@ -8,7 +8,14 @@ html * {
     box-sizing: border-box;
 }
 
-/* -------------------------------------------------------- */
+/* BODY -------------------------------------------------------- */
+
+body {
+	background-color: #ffffff;
+	margin: 20px;
+}
+
+/* SITE HEADER -------------------------------------------------------- */
 
 header {
 	display: flex;
@@ -32,21 +39,52 @@ header {
 	font-style: italic;
 }
 
+/* ARTICLES -------------------------------------------------------- */
+
+main {
+	display: flex;
+	justify-content: space-between;
+	border: 5px solid black;
+}
+
+#left-articles, #right-articles {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+#article1, #article2, #main-article, #article3, #article4 {
+	padding: 1.5em;
+}
+
+#main-article {
+	border-left: 5px solid black;
+	border-right: 5px solid black;
+}
+
+#article1, #article3 {
+	border-bottom: 5px solid black;
+}
+
+/* MAIN ARTICLE -------------------------------------------------------- */
+
+#main-article h1 {
+	text-align: center;
+}
+
 #main-article-pic {
 	height: 350px;
 	width: 350px;
+	display: block;
+	margin: auto;
 }
+
+/* RECOMMENDATIONS -------------------------------------------------------- */
 
 .recommend-image {
 	height: 150px;
 	width: 150px;
 }
-
-body {
-	background-color: #ffffff;
-	margin: 20px;
-}
-
 
 @media only screen and (min-width: 600px) {
 }
