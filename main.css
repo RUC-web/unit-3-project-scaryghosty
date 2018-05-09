@@ -30,6 +30,21 @@ header {
 .navigation-menu ul {
 	display: flex;
 	justify-content: space-between;
+	list-style-type: none;
+}
+
+.navigation-menu ul li a {
+	color: #ffffff;
+
+	text-decoration: none;
+	text-align: center;
+
+	font-weight: 600;
+	font-style: italic;
+
+	background-color: #000000;
+	border: 5px solid #000000;
+	border-radius: 5px;
 }
 
 #site-title {
@@ -45,6 +60,7 @@ main {
 	display: flex;
 	justify-content: space-between;
 	border: 5px solid black;
+	border-radius: 5px;
 }
 
 #left-articles, #right-articles {
