@@ -85,6 +85,10 @@ main {
 	border-bottom: 5px solid black;
 }
 
+article h2 {
+	text-decoration: underline;
+}
+
 /* MAIN ARTICLE -------------------------------------------------------- */
 
 #main-article h1 {
@@ -106,6 +110,10 @@ aside {
 	padding: 1.5em;
 }
 
+aside h1 {
+	text-decoration: underline;
+}
+
 aside ul {
 	display: flex;
 	justify-content: space-between;
@@ -117,7 +125,7 @@ aside ul li {
 }
 
 aside ul li a {
-	text-decoration: none;
+	text-decoration: underline;
 	color: #000000;
 	padding: 1em;
 }
