@@ -93,11 +93,12 @@ article h2 {
 
 #main-article h1 {
 	text-align: center;
+	font-size: 3em;
 }
 
 #main-article-pic {
-	height: 350px;
-	width: 350px;
+	height: 400px;
+	width: 400px;
 	display: block;
 	margin: auto;
 }
@@ -215,7 +216,6 @@ footer nav ul li a {
 
 	#main-article h1 {
 		text-align: left;
-		text-decoration: underline;
 	}
 
 	/* --- */
