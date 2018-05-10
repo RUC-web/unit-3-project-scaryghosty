@@ -81,11 +81,6 @@ main {
 	border-right: 5px solid black;
 }
 
-#page-article {
-	border-left: 5px solid black;
-	border-right: 5px solid black;
-}
-
 #article1, #article3 {
 	border-bottom: 5px solid black;
 }
@@ -108,7 +103,7 @@ article h2 {
 }
 
 #page-article p {
-	text-indent: 3em;
+	text-indent: 4em;
 }
 
 #main-article-pic {
@@ -119,8 +114,8 @@ article h2 {
 }
 
 #page-article-pic {
-	height: 900px;
-	width: 900px;
+	height: 800px;
+	width: 800px;
 	display: block;
 	margin: auto;
 }
@@ -233,8 +228,6 @@ footer nav ul li a {
 
 	#page-article {
 		border: 0;
-		border-top: 5px solid black;
-		border-bottom: 5px solid black;
 	}
 
 	#main-article-pic {
